@@ -178,7 +178,7 @@ h3{
 
 .portafolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,5fr))
+    grid-template-columns: repeat(auto-fit,minmax(250px,5fr))
 }
 
 .portafolio__item{
@@ -187,6 +187,9 @@ h3{
 }
 
 .portafolio__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     transition: 
         transform 750ms cubic-bezier(.5,0,.5,1),
         opacity 250ms linear;
