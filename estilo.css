@@ -108,15 +108,12 @@
  .intro__img{
      box-shadow: var(--bs);
  }
- .image__container{
- 
-    background-image: url(./images/small-portrait.jpg);
-    background-size: cover;
-    aspect-ratio: 1/1;
-    max-width: 370px
- }
+
  .intro__img{
     width: 100%;
+   
+    aspect-ratio: 1/1;
+    max-width: 370px
 }
  .section__subtitle--intro{
      display: inline-block;
@@ -130,16 +127,12 @@
          grid-template-areas: "img title""img subtitle";
          grid-template-columns: min-content max-content;
      }
-     .intro__img{
-         grid-area:img;
-         min-width: 250px;
-     }
     
-     .image__container{
+     .intro__img{
         grid-area:img;
         min-width: 250px;
-        
     }
+    
      .section__subtitle--intro{
          align-self: start;
          grid-column: -1/1;
