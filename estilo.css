@@ -106,6 +106,13 @@
  .intro__img{
      box-shadow: var(--bs);
  }
+ .image__container{
+    grid-area:img;
+    min-width: 250px;
+    background-image: url(./images/small-portrait.jpg);
+    background-size: cover;
+
+ }
  .section__subtitle--intro{
      display: inline-block;
  }
