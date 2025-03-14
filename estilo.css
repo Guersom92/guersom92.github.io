@@ -137,10 +137,14 @@
 
  /*Sección sobre mí*/
  .sobre-mí{
-     max-width: 1000px;
+     
      color: var(--clr-oscuro);
      background-color: var(--clr-claro);
-     margin: 0 auto;
+  
+ }
+ .sobre-mí__body{
+    max-width: 1000px;
+    margin: 0 auto;
  }
  
  /* Mi trabajo */
