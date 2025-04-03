@@ -11,9 +11,9 @@ export default function Card({
 }) {
   return (
     <article class="rounded-lg bg-gray-800/60 text-card-foreground flex flex-col overflow-hidden h-full">
-      <a class="block cursor-pointer" href={web}>
+      <a class="block cursor-pointer overflow-hidden " href={web}>
         <img
-          className="rounded-t-lg aspect-video w-full"
+          className="rounded-t-lg aspect-video w-full  duration-500  hover:scale-110"
           src={`/${imagen}`}
           alt=""
         />

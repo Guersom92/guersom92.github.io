@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Inicio from "./components/inicio";
 import Proyectos from "./components/proyectos";
 import Footer from "./components/footer";

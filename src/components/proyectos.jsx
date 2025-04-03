@@ -5,7 +5,7 @@ const PROYECTOS = [
   {
     titulo: "Trivia",
     descripcion:
-      "Es una aplicación web de trivia donde los usuarios pueden responder preguntas de opción múltiple. La interfaz es sencilla y permite seleccionar respuestas, con retroalimentación inmediata.",
+      "Juego interactivo de preguntas y respuestas que utiliza la API de The Trivia API. Interfaz intuitiva con animaciones elegantes.",
     imagen: "Trivia.webp",
     tecnologias: ["React JS", "Vite", "CSS"],
     web: "https://guersom92.github.io/Trivia/",
@@ -23,11 +23,20 @@ const PROYECTOS = [
   {
     titulo: "Mediciones en Marte",
     descripcion:
-      "Web que presenta datos meteorológicos recientes recopilados por el módulo de aterrizaje InSight de la NASA en Elysium Planitia, una llanura cercana al ecuador de Marte.",
+      "Visualizador web de datos meteorológicos de Marte obtenidos en tiempo real del módulo InSight en Elysium Planitia mediante la integración de la API de la NASA.",
     imagen: "Marte.webp",
     tecnologias: ["JavasScript", "CSS", "HTML"],
     web: "https://guersom92.github.io/TiempoMarciano/",
     codigo: "https://github.com/Guersom92/TiempoMarciano",
+  },
+  {
+    titulo: "Michi",
+    descripcion:
+      "Un juego de Tres en Raya interactivo con dos modos de juego - contra una IA implementada con el algoritmo Minimax que analiza y optimiza sus movimientos, o contra otro jugador.",
+    imagen: "Michi.webp",
+    tecnologias: ["JavasScript", "CSS", "HTML"],
+    web: "https://guersom92.github.io/Michi",
+    codigo: "https://github.com/Guersom92/Michi",
   },
 ];
 
