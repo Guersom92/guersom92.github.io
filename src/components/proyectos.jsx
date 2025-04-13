@@ -49,9 +49,13 @@ export default function Proyectos() {
       </h2>
       <div className="grid grid-cols-1 gap-x-3 gap-y-7 sm:grid-cols-2 max-w-[700px] mx-auto ">
         {PROYECTOS.map(
-          ({ titulo, descripcion, imagen, tecnologias, web, codigo }) => {
+          (
+            { titulo, descripcion, imagen, tecnologias, web, codigo },
+            index
+          ) => {
             return (
               <Card
+                key={index}
                 titulo={titulo}
                 descripcion={descripcion}
                 imagen={imagen}

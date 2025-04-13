@@ -5,7 +5,7 @@ import Mail from "./icons/mail";
 
 export default function Footer() {
   return (
-    <footer class="bg-black/20  mt-5 flex items-center justify-center gap-5 p-5">
+    <footer className="bg-black/20  mt-5 flex items-center justify-center gap-5 p-5">
       <a
         className="hover:scale-130 transition"
         href="https://github.com/Guersom92"
