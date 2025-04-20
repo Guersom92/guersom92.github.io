@@ -16,7 +16,7 @@ const PROYECTOS = [
     descripcion:
       "Aplicación web que representa visualmente cuántas semanas te quedan por vivir, basada en tu fecha de nacimiento y tu expectativa.",
     imagen: "TiempoRestante.webp",
-    tecnologias: ["React JS", "Vite", "Tailwind"],
+    tecnologias: ["React JS", "Vite", "Tailwind","Vitest"],
     web: "https://guersom92.github.io/TiempoRestante/",
     codigo: "https://github.com/Guersom92/TiempoRestante",
   },
