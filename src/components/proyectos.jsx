@@ -21,6 +21,15 @@ const PROYECTOS = [
     codigo: "https://github.com/Guersom92/Notas",
   },
   {
+    titulo: "Generador de archivos",
+    descripcion:
+      "Aplicación web para generar archivos Excel y PDF. Los archivos se generan en el lado del servidor creado con express.",
+    imagen: "generador.webp",
+    tecnologias: ["Express", "Node JS", "JavaScript", "CSS"],
+    web: "https://generador-archivos.onrender.com/",
+    codigo: "https://github.com/Guersom92/generador-archivos",
+  },
+  {
     titulo: "Tiempo Restante",
     descripcion:
       "Aplicación web que representa visualmente cuántas semanas te quedan por vivir, basada en tu fecha de nacimiento y tu expectativa.",
@@ -34,7 +43,7 @@ const PROYECTOS = [
     descripcion:
       "Visualizador web de datos meteorológicos de Marte obtenidos en tiempo real del módulo InSight en Elysium Planitia mediante la integración de la API de la NASA.",
     imagen: "Marte.webp",
-    tecnologias: ["JavasScript", "CSS", "HTML"],
+    tecnologias: ["JavaScript", "CSS", "HTML"],
     web: "https://guersom92.github.io/TiempoMarciano/",
     codigo: "https://github.com/Guersom92/TiempoMarciano",
   },
@@ -43,7 +52,7 @@ const PROYECTOS = [
     descripcion:
       "Un juego de Tres en Raya interactivo con dos modos de juego - contra una IA implementada con el algoritmo Minimax que analiza y optimiza sus movimientos, o contra otro jugador.",
     imagen: "Michi.webp",
-    tecnologias: ["JavasScript", "CSS", "HTML"],
+    tecnologias: ["JavaScript", "CSS", "HTML"],
     web: "https://guersom92.github.io/Michi",
     codigo: "https://github.com/Guersom92/Michi",
   },

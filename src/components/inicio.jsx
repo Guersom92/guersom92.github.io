@@ -15,7 +15,7 @@ export default function Inicio() {
           <h2 className="text-2xl opacity-70">Hola, soy</h2>
           <h1 className="text-[#16E0BD] text-5xl font-bold">Guersom Falcon</h1>
           <h2 className=" italic text-3xl opacity-90">
-            Desarrollador Frontend
+            Desarrollador Full Stack
           </h2>
           <div className="flex gap-3.5 pt-2 items-center text-white">
             <a
