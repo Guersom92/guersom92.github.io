@@ -1,5 +1,7 @@
 import Certificate from "./certificate";
 import CertificateIcon from "./icons/certificateIcon";
+import javascriptCert from "../assets/certificates/Javascript.webp";
+import reactCert from "../assets/certificates/React.webp";
 
 function Certificates() {
   const certificates = [
@@ -8,7 +10,7 @@ function Certificates() {
       title: "Javascript Algorithms and Data Structures",
       issuer: "FreeCodeCamp",
       date: "2020",
-      image: "./src/assets/certificates/Javascript.PNG",
+      image: javascriptCert,
       url: "https://www.freecodecamp.org/certification/guersom92/javascript-algorithms-and-data-structures",
     },
     {
@@ -16,7 +18,7 @@ function Certificates() {
       title: "Learn React",
       issuer: "Scrimba",
       date: "2020",
-      image: "./src/assets/certificates/React.PNG",
+      image: reactCert,
       url: "https://v1.scrimba.com/certificate/uVNbB7ux/glearnreact",
     },
   ];
