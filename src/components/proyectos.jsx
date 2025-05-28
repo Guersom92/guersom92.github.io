@@ -66,24 +66,9 @@ export default function Proyectos() {
         Mis proyectos
       </h2>
       <div className="grid grid-cols-1 gap-x-3 gap-y-7 sm:grid-cols-2 max-w-[700px] mx-auto ">
-        {PROYECTOS.map(
-          (
-            { titulo, descripcion, imagen, tecnologias, web, codigo },
-            index
-          ) => {
-            return (
-              <Card
-                key={index}
-                titulo={titulo}
-                descripcion={descripcion}
-                imagen={imagen}
-                tecnologias={tecnologias}
-                web={web}
-                codigo={codigo}
-              />
-            );
-          }
-        )}
+        {PROYECTOS.map((proyect, index) => {
+          return <Card key={index} {...proyect} />;
+        })}
       </div>
     </section>
   );
