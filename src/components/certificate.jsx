@@ -1,8 +1,15 @@
 import ExternalIcon from "./icons/external-link";
+import useIntersection from "../hooks/useIntersection";
 
 function Certificate({ title, issuer, date, image, url }) {
+  const { elementoRef, isIntersecting } = useIntersection();
   return (
-    <div className="relative pl-8">
+    <div
+      ref={elementoRef}
+      className={`${
+        isIntersecting ? "opacity-100" : "opacity-0"
+      } transition-opacity duration-1000 relative pl-8`}
+    >
       {/* Punto en la línea de tiempo */}
       <div className="absolute left-[-4px] top-0 h-3 w-3 rounded-full bg-[#16E0BD]"></div>
 
@@ -12,7 +19,7 @@ function Certificate({ title, issuer, date, image, url }) {
             <img
               src={image}
               alt={title}
-              className="w-full h-auto rounded-lg shadow-lg hover:scale-105 transition"
+              className="aspect-3/2 object-cover w-full h-auto rounded-lg shadow-lg hover:scale-105 transition"
               loading="lazy"
             />
           </a>
