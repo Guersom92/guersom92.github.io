@@ -7,19 +7,19 @@ function Certificates() {
   const certificates = [
     {
       id: 1,
-      title: "Javascript Algorithms and Data Structures",
-      issuer: "FreeCodeCamp",
-      date: "2020",
-      image: javascriptCert,
-      url: "https://www.freecodecamp.org/certification/guersom92/javascript-algorithms-and-data-structures",
-    },
-    {
-      id: 2,
       title: "Learn React",
       issuer: "Scrimba",
       date: "2020",
       image: reactCert,
       url: "https://v1.scrimba.com/certificate/uVNbB7ux/glearnreact",
+    },
+    {
+      id: 2,
+      title: "Javascript Algorithms and Data Structures",
+      issuer: "FreeCodeCamp",
+      date: "2020",
+      image: javascriptCert,
+      url: "https://www.freecodecamp.org/certification/guersom92/javascript-algorithms-and-data-structures",
     },
   ];
 

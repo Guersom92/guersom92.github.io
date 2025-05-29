@@ -16,7 +16,7 @@ export default function Card({
       ref={elementoRef}
       className={`${
         isIntersecting ? "opacity-100" : "opacity-0"
-      } transition-opacity duration-1000 rounded-lg bg-gray-800/60 text-card-foreground flex flex-col overflow-hidden h-full`}
+      } transition-opacity duration-1000 rounded-lg bg-gray-800/60 hover:bg-[#1E293B] text-card-foreground flex flex-col overflow-hidden h-full`}
     >
       <a className="block cursor-pointer overflow-hidden " href={web}>
         <img
