@@ -2,11 +2,20 @@ import Certificate from "./certificate";
 import CertificateIcon from "./icons/certificateIcon";
 import javascriptCert from "../assets/certificates/Javascript.webp";
 import reactCert from "../assets/certificates/React.webp";
+import fullstackCert from "../assets/certificates/certificate-fullstack.webp";
 
 function Certificates() {
   const certificates = [
     {
       id: 1,
+      title: "Full Stack Open",
+      issuer: "Universidad de Helsinki",
+      date: "2025",
+      image: fullstackCert,
+      url: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/dc5da3122784c843aa4de85562c9bcea",
+    },
+    {
+      id: 2,
       title: "Learn React",
       issuer: "Scrimba",
       date: "2020",
@@ -14,7 +23,7 @@ function Certificates() {
       url: "https://v1.scrimba.com/certificate/uVNbB7ux/glearnreact",
     },
     {
-      id: 2,
+      id: 3,
       title: "Javascript Algorithms and Data Structures",
       issuer: "FreeCodeCamp",
       date: "2020",
