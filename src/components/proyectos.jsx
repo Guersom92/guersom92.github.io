@@ -25,7 +25,7 @@ const PROYECTOS = [
     descripcion:
       "Aplicación web para generar archivos Excel y PDF. Los archivos se generan en el lado del servidor creado con express.",
     imagen: "generador.webp",
-    tecnologias: ["Express", "Node JS", "JavaScript", "CSS"],
+    tecnologias: ["Express", "Node JS", "Playwright", "JavaScript", "CSS"],
     web: "https://generador-archivos.onrender.com/",
     codigo: "https://github.com/Guersom92/generador-archivos",
   },
