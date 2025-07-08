@@ -3,6 +3,7 @@ import CertificateIcon from "./icons/certificateIcon";
 import javascriptCert from "../assets/certificates/Javascript.webp";
 import reactCert from "../assets/certificates/React.webp";
 import fullstackCert from "../assets/certificates/certificate-fullstack.webp";
+import typescript from "../assets/certificates/Typescript.webp";
 
 function Certificates() {
   const certificates = [
@@ -16,6 +17,14 @@ function Certificates() {
     },
     {
       id: 2,
+      title: "Learn Typescript",
+      issuer: "Scrimba",
+      date: "2025",
+      image: typescript,
+      url: "https://coursera.org/verify/VNTMMKWKNRNI",
+    },
+    {
+      id: 3,
       title: "Learn React",
       issuer: "Scrimba",
       date: "2020",
@@ -23,7 +32,7 @@ function Certificates() {
       url: "https://v1.scrimba.com/certificate/uVNbB7ux/glearnreact",
     },
     {
-      id: 3,
+      id: 4,
       title: "Javascript Algorithms and Data Structures",
       issuer: "FreeCodeCamp",
       date: "2020",
