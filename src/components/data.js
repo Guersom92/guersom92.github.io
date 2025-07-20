@@ -7,6 +7,14 @@ const PROYECTOS = [
         tecnologias: ["React JS", "Vite", "CSS"],
         web: "https://guersom92.github.io/Trivia/",
         codigo: "https://github.com/Guersom92/Trivia",
+    }, {
+        titulo: "CRUD de Usuarios",
+        descripcion:
+            "CRUD de gestión de usuarios desarrollado con MongoDB, Express y React. Implementando Redux Toolkit para el manejo de estado.",
+        imagen: "CRUD.webp",
+        tecnologias: ["Redux", "TypeScript", "Express", "MongoDB", "Flowbite"],
+        web: "https://crud-redux-soxp.onrender.com/",
+        codigo: "https://github.com/Guersom92/crud-redux",
     },
     {
         titulo: "Notas",
