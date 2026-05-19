@@ -19,7 +19,7 @@ function Certificate({ title, issuer, date, image, url }) {
             <img
               src={image}
               alt={title}
-              className="aspect-3/2 object-cover w-full h-auto rounded-lg shadow-lg hover:scale-105 transition"
+              className="aspect-3/2 object-contain w-full h-auto rounded-lg shadow-lg hover:scale-105 transition"
               loading="lazy"
             />
           </a>
